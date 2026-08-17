@@ -1,34 +1,87 @@
-# 🐢 Python Turtle Random Walk
+# 🐢 Python Turtle Graphics
 
-A colorful random-walk visualization built using **Python Turtle**.
+A collection of Python Turtle graphics projects created while learning and practicing Python.
 
-The turtle moves in random directions using only **0°, 90°, 180°, and 270°**, creating a squared/maze-like pattern. Each movement is assigned a randomly selected color.
+This repository contains simple Turtle projects that explore **loops, functions, randomization, colors, movement, angles, and graphical patterns**.
 
-## 🎨 Output
+## 📂 Projects
 
-![Python Turtle Random Walk](Randomwalk.png)
+### Day 18
 
-## 🛠️ Concepts Used
+#### 🎲 Random Walk
 
-* Python `turtle` module
-* Random color selection
-* Random direction selection
-* `for` loops
-* Lists
-* Functions such as `choice()`
-* Turtle pen size and movement
+A randomized Turtle movement project where the turtle continuously moves in different directions while changing colors.
 
+**Concepts used:**
 
-## 🚀 How It Works
+* Python Turtle
+* `random.choice()`
+* Loops
+* Colors
+* Turtle movement
+* Heading and directions
 
-1. A turtle is created with a pen size of `15`.
-2. A random color is selected from the `colours` list.
-3. The turtle moves forward by `30` pixels.
-4. A random direction is selected from:
+📄 File: `Day-18/randomwalk.py`
 
-   * `0°`
-   * `90°`
-   * `180°`
-   * `270°`
-5. The process repeats **100 times**.
+#### 🌀 Spirograph
+
+A colorful spirograph-style pattern created by repeatedly drawing circles and rotating the turtle by a fixed angle.
+
+**Concepts used:**
+
+* Python Turtle
+* Loops
+* `random.choice()`
+* RGB/named colors
+* Circles
+* Turtle headings
+* Geometric patterns
+
+📄 File: `Day-18/spirograph.py`
+
+## 🛠️ Technologies
+
+* **Python 3**
+* **Turtle Graphics**
+* **Git & GitHub**
+
+## 🚀 How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ShivamTejpal/python-turtle-random-walk.git
+```
+
+Navigate into the project:
+
+```bash
+cd python-turtle-random-walk
+```
+
+Run any project using Python:
+
+```bash
+python Day-18/randomwalk.py
+```
+
+or:
+
+```bash
+python Day-18/spirograph.py
+```
+
+> **Note:** Turtle Graphics requires a graphical desktop environment and may not work in headless environments.
+
+## 📁 Repository Structure
+
+```text
+python-turtle-random-walk/
+│
+├── Day-18/
+│   ├── randomwalk.py
+│   └── spirograph.py
+│
+└── README.md
+```
 
