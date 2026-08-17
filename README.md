@@ -18,36 +18,6 @@ The turtle moves in random directions using only **0°, 90°, 180°, and 270°**
 * Functions such as `choice()`
 * Turtle pen size and movement
 
-## 💻 Code
-
-```python
-from turtle import *
-from random import choice
-
-tim = Turtle()
-tim.pensize(15)
-
-colours = [
-    "CornflowerBlue",
-    "DarkOrchid",
-    "IndianRed",
-    "DeepSkyBlue",
-    "LightSeaGreen",
-    "Wheat",
-    "SlateGray",
-    "SeaGreen"
-]
-
-directions = [0, 90, 180, 270]
-
-for i in range(100):
-    tim.color(choice(colours))
-    tim.forward(30)
-    tim.setheading(choice(directions))
-
-screen = Screen()
-screen.exitonclick()
-```
 
 ## 🚀 How It Works
 
