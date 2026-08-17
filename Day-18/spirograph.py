@@ -2,15 +2,16 @@ from turtle import *
 from random import random, choice
 
 tim = Turtle()
-tim.pensize(15)
+tim.speed(0)
+tim.pensize(2)
+
+x = 100
 colours = ["CornflowerBlue","DarkOrchid","IndianRed","DeepSkyBlue",
            "LightSeaGreen","Wheat","SlateGray","SeaGreen"]
-directions = [0, 90, 180, 270]
-
-for i in range(200):
+for i in range(50):
     tim.color(choice(colours))
-    tim.forward(40)
-    tim.setheading(choice(directions))
+    tim.circle(x)
+    tim.setheading(tim.heading() + 10)
 
 screen = Screen()
 screen.exitonclick()
